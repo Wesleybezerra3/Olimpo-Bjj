@@ -40,7 +40,6 @@ export function Footer() {
         </section>
 
         <section className={styles.container_bottom}>
-          <p>Olaa</p>
           <div className={styles.endereco_footer}>
             <i class="fa-solid fa-location-dot"></i>
             <a href="https://maps.app.goo.gl/T4GhywxzwsM4K7UG7">
