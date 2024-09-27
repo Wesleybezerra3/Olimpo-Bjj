@@ -1,0 +1,22 @@
+.container_traineer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.container_text > article>p{
+    color: var(--cor2);
+    font-family: var(--Roboto);
+    font-weight: lighter;
+    font-size: 1.8rem;
+}
+.container_text{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image: url('../assets/retc_vetor.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+}

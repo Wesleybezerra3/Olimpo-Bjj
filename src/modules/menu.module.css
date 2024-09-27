@@ -1,0 +1,114 @@
+.menu {
+  width: 100%;
+  height: 100vh;
+  z-index: 4;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  opacity: 0;
+  visibility: hidden; /* Para esconder o menu */
+}
+
+.menu.menu-open {
+    opacity: 1;
+    visibility: visible; /* Mostra o menu quando ativado */
+}
+aside {
+  background-color: var(--cor3);
+  height: 100dvh;
+  border-radius:0 15px 15px 0 ;
+  position: fixed;
+  z-index: 5;
+  width: 60%;
+  left: -60%;
+  transition: 2s;
+  transition: transform 0.5s ease;
+}
+.menu.menu-open aside {
+    transform: translateX(100%); /* Desliza o aside para dentro da tela */
+}
+
+
+.container_btnClose {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.close_btn {
+  border: none;
+  background-color: transparent;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.container_tittle {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.container_tittle > p {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: var(--Coda);
+  color: var(--cor2);
+  text-align: center;
+}
+.container_linksMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+}
+.container_linksMenu>a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor2);
+    font-size: 1.7rem;
+    font-family: var(--Roboto);
+    font-weight: lighter;
+    padding: 3px;
+
+    border-top:0.2px solid var(--cor2);
+    border-bottom:0.2px solid var(--cor2);
+
+}
+.container_linksMenu>a:active{
+    background-color: var(--cor2);
+    color: var(--cor3);
+    font-weight: 500;
+}
+
+.container_doacaoMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+    margin-top: 20px;
+}
+.text_doacaoMenu>p{
+    font-weight: lighter;
+    text-align: center;
+    color: var(--cor2);
+    font-size: 1.2rem;
+}
+.btn_doacaoMenu{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: var(--cor2);
+    font-family: var(--Roboto);
+    font-size: 1rem;
+    border: 0.2px solid var(--cor2);
+    text-decoration: none;
+}

@@ -1,0 +1,32 @@
+.container_obj{
+    background-color: var(--cor2);
+    width: 100%;
+    padding: 15px;
+    border: none;
+}
+.container_h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+h2{
+    font-size: 1rem;
+    color: var(--cor1);
+    text-align: center;
+    font-family: var(--Coda);
+    border: 0.2px solid var(--cor1) ;
+    padding: 5px 30px;
+}
+
+.container_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 30px;
+}
+article{
+    margin-top: 20px;
+}
