@@ -1,11 +1,5 @@
 import styles from "../modules/footer.module.css";
 export function Footer() {
-  
-  // ScrollReveal().reveal(".reveal", {
-  //   delay: 300,
-  //   reset: true,
-  // });
-
   return (
     <>
       <footer >

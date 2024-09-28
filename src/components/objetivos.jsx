@@ -20,13 +20,9 @@ export function Objetivo() {
         },
       ];
 
-      ScrollReveal().reveal('.reveal', {
-        delay: 200,
-        reset: true,
-      });
   return (
     <>
-      <section className={`${styles.container_obj} reveal`}>
+      <section className={`${styles.container_obj}`}>
         <div className={styles.container_h2}>
           <h2>Nossos Objetivos</h2>
         </div>
