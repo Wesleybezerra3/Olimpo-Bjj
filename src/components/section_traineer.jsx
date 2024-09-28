@@ -1,10 +1,6 @@
 import styles from "../modules/section_traineer.module.css";
-import ScrollReveal from 'scrollreveal'
 export function Section_traineer() {
-  // ScrollReveal().reveal('.reveal', {
-  //   delay: 300,
-  //   reset: true,
-  // });
+
   return (
     
     <>

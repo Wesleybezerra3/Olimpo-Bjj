@@ -1,5 +1,4 @@
 import styles from "../modules/footer.module.css";
-import ScrollReveal from "scrollreveal";
 export function Footer() {
   
   // ScrollReveal().reveal(".reveal", {

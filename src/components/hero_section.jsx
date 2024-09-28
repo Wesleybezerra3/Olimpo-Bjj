@@ -1,10 +1,6 @@
 import styles from "../modules/hero.module.css";
-import ScrollReveal from 'scrollreveal'
 export function Hero() {
-  // ScrollReveal().reveal('.reveal', {
-  //   delay: 300,
-  //   reset: true,
-  // });
+
   return (
     <>
       <section className={`${styles.container_hero}`}>

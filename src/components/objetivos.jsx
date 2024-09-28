@@ -1,5 +1,4 @@
 import styles from "../modules/objetivo.module.css"
-import ScrollReveal from 'scrollreveal'
 import { Card } from "./card";
 export function Objetivo() {
     const objetivos = [
